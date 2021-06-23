@@ -55,8 +55,8 @@ h5.words {
     line-height: 0px;
 }
 
-h5.bottomwords {
-    padding-bottom: 10px;
+.bottomwords {
+    margin-bottom: 30px;
 }
 
 #types {
