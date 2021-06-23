@@ -1,36 +1,108 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+html {
     background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
 }
 
-h1,
-h2 {
-    color: white;
+#header {
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    justify-content: space-between;
 }
 
-h1 {
-    font-weight: normal;
-    font-size: 50px;
+nav {
+    display: flex;
 }
 
-h2 {
-    font-weight: 300;
-    font-size: 42px;
+#header img {
+    height: 50px;
 }
 
-span {
-    color: aquamarine;
-    font-size: 16px;
+nav div {
     text-decoration: underline;
+    margin-left: 15px;
+    margin-right: 5px;
 }
 
-h3,
-h4 {
-    font-size: 21px;
-    color: gray;
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    flex-basis: 1200px;
 }
 
-h4 {
-    text-align: right;
+#mission {
+    background-color: black;
+    width: 100%;
+}
+
+#types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#types div {
+    margin: 0 20px;
+}
+
+.pic img {
+    height: 200px;
+    width: 300px;
+}
+
+#locations {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-position: 50% -40px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 500px;
+}
+
+#margin {
+    padding-top: 70px;
+    margin-bottom: 15px;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    height: 275px;
+    width: 300px;
+    background-color: black;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.eastbayside {
+    margin: 0px 40px;
+}
+
+footer {
+    height: 200px;
+}
+
+footer a {
+    display: block;
+    color: white
 }
